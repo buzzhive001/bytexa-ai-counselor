@@ -46,8 +46,8 @@ export default function Footer() {
           <div className="footer-top">
             <div className="footer-brand">
               <div className="footer-logo">
-                <div className="footer-logo-icon">Bx</div>
-                <span className="footer-logo-name">Bytexa <span>AI</span></span>
+                <div className="footer-logo-icon">UG</div>
+                <span className="footer-logo-name">U-Guide <span>AI</span></span>
               </div>
               <p className="footer-desc">
                 India's trusted AI counselor for students — built for NEP 2020, serving every school from Grade 1 to 12.
@@ -61,8 +61,8 @@ export default function Footer() {
             ))}
           </div>
           <div className="footer-bottom">
-            <p className="footer-copy">© 2025 <strong>Bytexa AI</strong> — Built for India's students. Powered by NEP 2020.</p>
-            <p className="footer-legal">Developed by Bytexa Devtech Foundation · Youth Empowerment &amp; Holistic Education</p>
+            <p className="footer-copy">© 2025 <strong>U-Guide AI</strong> — Built for India's students. Powered by NEP 2020.</p>
+            <p className="footer-legal">Developed by U-Guide Foundation · Youth Empowerment &amp; Holistic Education</p>
           </div>
         </div>
       </footer>

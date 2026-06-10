@@ -61,8 +61,8 @@ export default function Navbar() {
       <header className={`nav${scrolled ? ' scrolled' : ''}`}>
         <div className="nav-inner">
           <a href="#" className="nav-logo">
-            <div className="nav-logo-icon">Bx</div>
-            <span className="nav-logo-text">Bytexa <span>AI</span></span>
+            <div className="nav-logo-icon">UG</div>
+            <span className="nav-logo-text">U-Guide <span>AI</span></span>
           </a>
           <nav className="nav-links">
             {LINKS.map(l => <a key={l} href="#">{l}</a>)}

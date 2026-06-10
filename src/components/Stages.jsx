@@ -123,7 +123,7 @@ export default function Stages() {
         <div className="stages-header reveal">
           <span className="chip chip-amber">5 + 3 + 3 + 4 Framework</span>
           <h2 className="stages-title">The Right Support at the Right Age</h2>
-          <p className="stages-sub">Every stage of childhood is different. Bytexa AI adapts so the guidance always fits.</p>
+          <p className="stages-sub">Every stage of childhood is different. U-Guide AI adapts so the guidance always fits.</p>
         </div>
 
         {/* Auto-scroll belt — cards duplicated for seamless loop */}

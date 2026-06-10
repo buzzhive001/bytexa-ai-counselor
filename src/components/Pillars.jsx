@@ -55,7 +55,7 @@ const TABS = [
     kicker: 'Career Guidance', vClass: 'v0', tClass: 't0', kColor: 'v0-text',
     emoji: '🗺️',
     title: 'Find the Career That Was Made for You',
-    body: 'Stop guessing your future. Bytexa AI maps your unique strengths, passions and learning style to real career options — starting as early as Grade 3.',
+    body: 'Stop guessing your future. U-Guide AI maps your unique strengths, passions and learning style to real career options — starting as early as Grade 3.',
     bullets: ['Strength-based aptitude mapping', 'Subject-to-career roadmaps', 'Live mentor connect sessions', '500+ career paths covered'],
     tag: '🎓 For Ages 8 – 18',
   },
@@ -64,7 +64,7 @@ const TABS = [
     kicker: 'Mental Wellness', vClass: 'v1', tClass: 't1', kColor: 'v1-text',
     emoji: '🌿',
     title: 'A Safe Space When Things Get Heavy',
-    body: 'Exam pressure, friendship stress, family worries — Bytexa AI listens without judgement, around the clock. And when you need more, a real counsellor is one tap away.',
+    body: 'Exam pressure, friendship stress, family worries — U-Guide AI listens without judgement, around the clock. And when you need more, a real counsellor is one tap away.',
     bullets: ['Anonymous, judgment-free conversations', 'Stress & anxiety coping tools', 'Real human counsellor escalation', 'Crisis support protocols'],
     tag: '💙 Always On — 24 × 7',
   },
@@ -73,7 +73,7 @@ const TABS = [
     kicker: 'Holistic Development', vClass: 'v2', tClass: 't2', kColor: 'v2-text',
     emoji: '🏆',
     title: 'Grow Beyond the Textbook',
-    body: 'Academic scores are just one part of the picture. Bytexa AI nurtures confidence, emotional intelligence and life skills at every stage — from kindergarten to Class 12.',
+    body: 'Academic scores are just one part of the picture. U-Guide AI nurtures confidence, emotional intelligence and life skills at every stage — from kindergarten to Class 12.',
     bullets: ['Stage-tuned counselling approach', 'Emotional intelligence exercises', 'Life skills & confidence building', 'Play-based learning for young kids'],
     tag: '⚡ Stage-Adaptive AI',
   },
@@ -100,7 +100,7 @@ export default function Pillars() {
         <div className="pillars-header reveal">
           <span className="chip chip-indigo">What We Offer</span>
           <h2 className="pillars-title">One Platform. Three Superpowers.</h2>
-          <p className="pillars-sub">Choose what you need — or let Bytexa AI figure it out for you.</p>
+          <p className="pillars-sub">Choose what you need — or let U-Guide AI figure it out for you.</p>
         </div>
 
         {/* Tabs */}

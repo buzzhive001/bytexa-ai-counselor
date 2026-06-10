@@ -76,24 +76,24 @@ const css = `
 `;
 
 const INIT = [
-  { from:'ai',   text:"Hello! 👋 I'm Bytexa AI, your personal counsellor. How are you feeling today?" },
-  { from:'user', text:"I've been losing sleep over my board exams 😓" },
-  { from:'ai',   text:"I completely understand — take a deep breath. 🌬️ Want a study schedule, or should we talk about managing this stress first?" },
-  { from:'user', text:"Also confused about which career to choose" },
-  { from:'ai',   text:"You're in the right place! 🎯 Let me run a quick aptitude check to find careers that truly fit your strengths. Ready?" },
+  { from:'ai',   text:"Hello! 👋 I'm Counsel AI, your school counselor. How are you feeling about school today?" },
+  { from:'user', text:"I'm really stressed about my report card 😓" },
+  { from:'ai',   text:"Looking at your recent report, I can see you've been putting in effort. 📊 Grades don't define you — but let's talk about which subjects feel the hardest right now so we can make a real plan." },
+  { from:'user', text:"Maths and Science are really worrying me" },
+  { from:'ai',   text:"Your school report shows progress in some areas and room to grow in others. 📝 That's completely normal. Which subject would you like to focus on first — the one you enjoy or the one that worries you most?" },
 ];
 const REPLIES = [
-  "Great! Based on your profile, Technology, Design, or Education could be excellent fits. 💡",
-  "You're not alone — millions of students feel this way. One step at a time. 🌟",
-  "Want me to build a personalised study plan for your exams? 📅",
-  "The right guidance makes every step clearer. Let's figure this out together. 🚀",
-  "Want me to connect you with a real human counsellor for deeper support? 🧑‍⚕️",
+  "Based on our last counseling session, you mentioned feeling behind in class. 🗓️ Have things improved this week, or is the pressure still building up? Let's update your study schedule together.",
+  "Your teacher's feedback in the report mentions you're capable but distracted. 💬 That's actually a good sign — it means you have the potential. What do you think is causing the distraction? Let's figure it out.",
+  "School can feel like a lot — reports, exams, friendships, expectations. 🏫 You don't have to handle it all alone. I'm here as your counselor. What part of school life feels the most difficult for you today?",
+  "Your school report shows progress in some areas and room to grow in others. 📝 That's completely normal. Which subject would you like to focus on first — the one you enjoy or the one that worries you most?",
+  "Looking at your recent report, I can see you've been putting in effort. 📊 Grades don't define you — but let's talk about which subjects feel the hardest right now so we can make a real plan.",
 ];
 const FEATS = [
+  { ico:'📋', label:'Report Analysis', sub:'Smart grade insights' },
+  { ico:'🧑‍⚕️', label:'Human Backup', sub:'Real school counsellor' },
   { ico:'🔒', label:'100% Private', sub:'DPDP Act 2023' },
-  { ico:'🌐', label:'12+ Languages', sub:'Hindi, Tamil & more' },
-  { ico:'🧑‍⚕️', label:'Human Backup', sub:'Real counsellor' },
-  { ico:'📊', label:'School Reports', sub:'Weekly dashboard' },
+  { ico:'🏫', label:'School Portal', sub:'Teacher & parent view' },
 ];
 
 export default function ChatDemo() {
@@ -140,8 +140,8 @@ export default function ChatDemo() {
             <div className="chat-info-chip">
               <span className="chip chip-indigo">Live Demo</span>
             </div>
-            <h2 className="chat-title">Bytexa AI Listens.<br />Never Judges.</h2>
-            <p className="chat-sub">Career confusion or emotional stress — our empathetic AI guides you anytime, anywhere, in any language.</p>
+            <h2 className="chat-title">Counsel AI Listens.<br />Never Judges.</h2>
+            <p className="chat-sub">Report card stress, exam pressure, or classroom anxiety — Counsel AI is your school's always-on counselor, ready to help every student.</p>
             <div className="feat-grid">
               {FEATS.map(f => (
                 <div key={f.label} className="feat-tile">
@@ -165,10 +165,10 @@ export default function ChatDemo() {
             </div>
             {/* Topbar */}
             <div className="chat-topbar">
-              <div className="chat-avt">🤖</div>
+              <div className="chat-avt">🧭</div>
               <div>
-                <div className="chat-topbar-name">Bytexa AI</div>
-                <div className="chat-topbar-status">● Online • NEP 2020 Certified</div>
+                <div className="chat-topbar-name">Counsel AI</div>
+                <div className="chat-topbar-status">● Online • School Counselor</div>
               </div>
               <span className="chat-topbar-badge">FREE</span>
             </div>

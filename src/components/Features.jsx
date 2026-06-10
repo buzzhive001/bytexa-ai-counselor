@@ -64,7 +64,7 @@ const ROWS = [
     kicker:'🎙️ Voice & Language',
     emoji:'🌐',
     title:'Talk in Your Language. Learn in Your Way.',
-    body:'Whether you prefer typing, speaking, or your regional language — Bytexa AI meets you where you are. No language barrier, no tech barrier.',
+    body:'Whether you prefer typing, speaking, or your regional language — U-Guide AI meets you where you are. No language barrier, no tech barrier.',
     points:[
       { dot:'🗣️', bg:'#f0fdfa', text:'Voice-enabled sessions, hands-free' },
       { dot:'🌏', bg:'#f0fdfa', text:'12+ Indian languages supported' },

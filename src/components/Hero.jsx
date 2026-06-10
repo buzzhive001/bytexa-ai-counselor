@@ -119,7 +119,7 @@ export default function Hero() {
               Right Guidance.
             </h1>
             <p className="hero-sub">
-              Bytexa AI is your always-on counselor — helping every student from
+              U-Guide AI is your always-on counselor — helping every student from
               Grade 1 to 12 choose the right career, manage stress, and grow with confidence.
             </p>
             <div className="hero-cta">
@@ -139,7 +139,31 @@ export default function Hero() {
             <div className="hero-avatar-wrap">
               <div className="hero-ring" />
               <div className="hero-circle">
-                🤖
+                <svg width="110" height="110" viewBox="0 0 110 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  {/* Outer glow ring */}
+                  <circle cx="55" cy="55" r="50" fill="url(#grad1)" opacity="0.15"/>
+                  {/* Main circle bg */}
+                  <circle cx="55" cy="55" r="42" fill="url(#grad1)"/>
+                  {/* Compass needle */}
+                  <polygon points="55,20 61,55 55,50 49,55" fill="white" opacity="0.95"/>
+                  <polygon points="55,90 61,55 55,60 49,55" fill="white" opacity="0.4"/>
+                  {/* Center dot */}
+                  <circle cx="55" cy="55" r="6" fill="white"/>
+                  <circle cx="55" cy="55" r="3" fill="#4f46e5"/>
+                  {/* Compass ring */}
+                  <circle cx="55" cy="55" r="30" stroke="white" strokeWidth="1.5" strokeDasharray="4 3" opacity="0.5"/>
+                  {/* N/S/E/W marks */}
+                  <text x="52" y="16" fill="white" fontSize="8" fontWeight="800" fontFamily="Sora,sans-serif">N</text>
+                  <text x="52" y="98" fill="white" fontSize="8" fontWeight="800" fontFamily="Sora,sans-serif" opacity="0.6">S</text>
+                  <text x="90" y="58" fill="white" fontSize="8" fontWeight="800" fontFamily="Sora,sans-serif" opacity="0.6">E</text>
+                  <text x="14" y="58" fill="white" fontSize="8" fontWeight="800" fontFamily="Sora,sans-serif" opacity="0.6">W</text>
+                  <defs>
+                    <linearGradient id="grad1" x1="0" y1="0" x2="110" y2="110" gradientUnits="userSpaceOnUse">
+                      <stop offset="0%" stopColor="#4f46e5"/>
+                      <stop offset="100%" stopColor="#06b6d4"/>
+                    </linearGradient>
+                  </defs>
+                </svg>
                 <div className="hero-dot" />
               </div>
             </div>
