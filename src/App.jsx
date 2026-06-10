@@ -1,7 +1,6 @@
 import './index.css';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import NepBand from './components/NepBand';
 import Pillars from './components/Pillars';
 import Stages from './components/Stages';
 import ChatDemo from './components/ChatDemo';
@@ -14,7 +13,6 @@ export default function App() {
     <>
       <Navbar />
       <Hero />
-      <NepBand />
       <Pillars />
       <Stages />
       <ChatDemo />
